@@ -16,6 +16,7 @@ default: &default
   username: root
   password: kfe4>MqSv%Wl
   socket: /var/lib/mysql/mysql.sock
+  Host: ansible-test-db.c4k4ingmhiox.ap-northeast-1.rds.amazonaws.com
 
 development:
   <<: *default
